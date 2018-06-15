@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+  - name: launcing a Ec2 insatnce
+    command: date
+    register: pop
+      
