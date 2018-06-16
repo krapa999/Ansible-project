@@ -1,6 +1,5 @@
 ---
 - hosts: all
   tasks:
-  - name: launcing a Ec2 insatnce
-    command: date
-    register: pop
+  - name: istall nginx
+    yum: name=nginx state=installed
