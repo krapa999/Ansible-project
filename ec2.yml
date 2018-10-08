@@ -9,6 +9,6 @@
          image: "{{ image }}"
          wait: true
          region: "{{ region }}"
-         vpc_subnet_id: "{{ subnet }}"
+         vpc_subnet_id: subnet-4b3b4b23
          assign_public_ip: yes
       
