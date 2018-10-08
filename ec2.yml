@@ -8,7 +8,7 @@
          instance_type: "{{ instance_type }}"
          image: "{{ image }}"
          wait: true
-         region: "us-east-1"
+         region: "{{ ap-south-1 }}"
          vpc_subnet_id: "{{ subnet }}"
          assign_public_ip: yes
       
